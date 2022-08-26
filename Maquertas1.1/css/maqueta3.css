@@ -1,0 +1,54 @@
+#col1{
+    margin: 0 auto;
+    background-color:#bde0fe;
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 100px;
+}
+#col2{
+    background-color:#a2d2ff;
+    border-color: white;
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 150px;
+}
+#col3{
+    background-color:#ffafcc;
+    border-color: white;
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 150px;
+}
+#col4{
+    background-color:#ffc8dd;
+    border-color: white;
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 150px;
+}
+#col5{
+  background-color:#cdb4db;
+  border-color: white;
+  border-width: 1px;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+text-align: center;
+height: 300px;
+}
+#col6{
+  background-color:rgb(216, 185, 255);
+  border-color: white;
+  border-width: 1px;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+text-align: center;
+height: 50px;
+}

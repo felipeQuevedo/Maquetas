@@ -1,0 +1,27 @@
+.container{
+    background-color: antiquewhite;
+    
+}
+h1{ 
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.row1{
+    text-align: left;
+    padding-left: 0%;
+}
+h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+row2{
+    text-align: left;
+    padding-left: 0%;
+}
+row3{
+    text-align: left;
+    padding-left: 0%;
+}
