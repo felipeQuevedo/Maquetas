@@ -15,12 +15,14 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        border:solid white 5px
     }
     #div2 h4{
         color: #ffffff;
-        border: none;
+        border:none;
         text-align: center;
         margin: 5rem 0;
+
     }
     #div1{
         background-image: url(../img1/portada.jpg);
@@ -29,6 +31,7 @@
         background-position: center center;
         height: 350px;
         position: relative;
+        border:solid white 5px
     }
     #hijo{
         background-color: rgb(252, 252, 241);
@@ -42,6 +45,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        border:solid white 5px
     }
     #div3 h4{
         color: #ffffff;
@@ -54,6 +58,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        border:solid white 5px
     }
     #div4 h4{
         color: #ffffff;
@@ -69,4 +74,5 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
