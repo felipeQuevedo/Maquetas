@@ -1,32 +1,19 @@
-.container{
-    background-color: antiquewhite;
-    
+*{
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(255, 255, 255);
 }
-h1{ 
-    text-align: center;
-}
-.row{
-    text-align: center;
-}
-.row1{
-    text-align: left;
-    padding-left: 0%;
-}
-h4{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-row2{
-    text-align: left;
-    padding-left: 0%;
-}
-row3{
-    text-align: left;
-    padding-left: 0%;
-}
-.img-fluid{
-    width: 700px;
-    height:350px ;
-    object-fit: cover;
-}
+#caja{
+    padding: 0%;
+    border:2px solid #f5bf86;
+    background:#e7b36f;
+    margin:0%;
+    line-height:26px !important;
+    }
+    #img-fluid{
+        height: 350px;
+        object-fit: cover;
+        border: 2px solid rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+    }
