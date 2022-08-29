@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#caja{
+    padding: 0%;
+    border:2px solid #f0e7de;
+    background:rgb(252, 252, 241);
+    margin:0%;
+    line-height:26px !important;
+    height: 350px;
+    }
+     #div2{
+        background-image: url(../img1/img4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #div2 h4{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin: 5rem 0;
+    }
+    #div1{
+        background-image: url(../img1/portada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 350px;
+        position: relative;
+    }
+    #hijo{
+        background-color: rgb(252, 252, 241);
+        position: absolute;
+        height: 125px;
+        width: 400px;
+        top: 200px;
+    }
+    #div3{
+        background-image: url(../img1/img2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #div3 h4{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin: 5rem 0;
+    }
+    #div4{
+        background-image: url(../img1/img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #div4 h4{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin: 5rem 0;
+    }
+.titulo{
+    padding: 50px;
+    text-align: center;
+}
+.bruh{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
