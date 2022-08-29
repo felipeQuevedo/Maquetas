@@ -2,6 +2,7 @@
  <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
+   ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 **ENTIDAD: Centro de Biotecnologia Agropecuaria FICHA: 2558346 PROGRAMA: Analisis y desarrollo de Software - ADSO Autor: Felipe Quevedo OBJETIVO: Uso del css y boostrap**
 **HTML-css-boostrap:** 
 **media**
