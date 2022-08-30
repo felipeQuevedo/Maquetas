@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cq{
+    width: 50%;
+text-align: center;
+border-collapse: 2px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  th {
+    background-color: 	#960018;
+    color: white;
+  }
+  #bd1{
+    background-image: url(../img/Flag_of_Germany_\(3-2_aspect_ratio\).svg.webp);
+    background-size: cover;
+  }
+  #bd2{
+    background-image: url(../img/Flag_of_France.svg.webp);
+    background-size: cover;
+  }
+  #bd3{
+    background-image: url(../img/descarga.png);
+    background-size: cover
+    ;
+  }
+  #bd4{
+    background-image: url(../img/Bandera_de_España.svg.webp);
+    background-size: cover;
+  }
