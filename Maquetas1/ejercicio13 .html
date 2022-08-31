@@ -1,0 +1,70 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMA: Analisis y desarrollo de Software - ADSO
+    Autor: Felipe Quevedo
+    OBJETIVO: Uso de las etiquetas HTML: p, strong, del, em
+    FECHA CREACION: 31/07/22
+    VERSION:2.0.0
+    FECHA DE MODIFICACION:01/08/22
+     VALIDADO POR W3C
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rellena tu CV</title>
+        <link rel="stylesheet" href="./css/ejercicio13.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Rellena tu CV</h2>
+                <h2>FICHA:2558346</h2>
+            </div>
+            <div class="nav">
+                <h2>menu de navegacion</h2>
+            </div>
+            <div class="main">
+                <form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+
+                    Nombre<br />
+                    <input type="text" name="nombre" value="" size="20" maxlength="30" />
+                    <br />
+                    Apellidos <br />
+                    <input type="text" name="apellidos" value="" size="50" maxlength="80" />
+
+                    <br />
+                    contraseña<br />
+                    <input type="password" name="contraseña" value="" maxlength="10" />
+                    <br />
+                    DNI<br />
+                    <input type="text" name="dni" value="" size="10" maxlength="9" />
+
+                    <br />
+                    Sexo<br />
+                    <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br />
+                    <input type="radio" name="sexo" value="mujer" /> Mujer
+                    <br /><br />
+                    Incluir mi foto<input type="file" name="foto" />
+
+                    <br /> <br />
+                    <input name="suscribir" type="checkbox" value="suscribir" checked="checked" />Suscribirme al boletin de
+                    novedades
+                    <br /><br />
+                    <input type="submit" name="enviar" value="guardar cambios" />
+                    <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+                </form>
+            </div>
+            <div class="footer">
+                <h2>Felipe Queveo Mendoza</h2>
+                <h2>©</h2>
+                <img src="./img/índice.png" alt="">
+            </div>
+        </div>
+    </body>
+
+</html>

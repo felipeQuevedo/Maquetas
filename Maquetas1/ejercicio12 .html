@@ -1,0 +1,99 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMA: Analisis y desarrollo de Software - ADSO
+    Autor: Felipe Quevedo
+    OBJETIVO: Uso de las etiquetas HTML: p, strong, del, em
+    FECHA CREACION: 31/07/22
+    VERSION:2.0.0
+    FECHA DE MODIFICACION:01/08/22
+     VALIDADO POR W3C
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo de tabla compleja</title>
+        <link rel="stylesheet" href="./css/ejercicio12.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>FICHA:2558346</h2>
+            </div>
+            <div class="nav">
+                <h2>menu de navegacion</h2>
+            </div>
+            <div class="main">
+                <h3>Ejemplo tabla compleja</h3>
+
+                <caption>Tabla comparativa de las caracteristicas tecnicas de los reproductores MP3</caption>
+                <tr>
+                    <th></th>
+                    <th abbr="Reproductor mini" scope="col" colspan="3">
+                        <img src="./Imagenes/pequeño-blanco.png" alt="Imagen del reproductor MP3 pequeño de color blanco" />
+                        <img src="./Imagenes/pequeño-negro.png" alt="Imagen del reproductor MP3 pequeño de color negro" />
+                        <br /><strong>MP3 mini</strong>
+                    </th>
+                    <th abbr="Reproductor Estandar" scope="col" colspan="2">
+                        <img src="./Imagenes/mp3_grande-blanco.png"
+                            alt="Imagen del reproductor MP3 grande de color blanco" />
+                        <img src="./Imagenes/mp3_grande-negro.png" alt="Imagen del reproductor MP3 grande de color negro" />
+                        <br /><strong>MP3 grande</strong>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row" abbr="Capacidad">Capacidad de almacenamiento</th>
+                    <td>4GB<br />(1.000 canciones</td>
+                    <td>8GB<br />(2.000 canciones</td>
+                    <td>16GB<br />(4.000 canciones</td>
+                    <td>30GB<br />(7.500 canciones</td>
+                    <td>80GB<br />(20.000 canciones</td>
+                </tr>
+                <tr>
+                    <th scope="row" abbr="colores disponibles">Colores</th>
+                    <td>
+                        <img src="Imagenes/color_blanco.png" alt="Color blanco" />
+                    </td>
+                    <td>
+                        <img src="Imagenes/pequeño-negro1.png" alt="Color negro" />
+                        <img src="Imagenes/color_verde.png" alt="Color verde" />
+                        <img src="Imagenes/color_azul.png" alt="Color azul" />
+                        <img src="Imagenes/color_rosa.png" alt="Color rosa" />
+                    </td>
+                    <td>
+                        <img src="Imagenes/pequeño-negro.png" alt="Color negro" />
+                    </td>
+                    <td colspan="2">
+                        <img src="Imagenes/color_blanco.png" alt="Color blanco" />
+                        <img src="Imagenes/pequeño-negro.png" alt="Color negro" />
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" abbr="Tamaño de pantalla">Pantalla</th>
+                    <td colspan="3">LCD de 3cm (diagonal) con retroiluminacion</td>
+                    <td colspan="2">LCD de 6cm (diagonal) con retroiluminacion</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="row" abbr="Tiempo de carga">Tiempo de carga</th>
+                    <td rowspan="2" colspan="3">Unas 3 horas</td>
+                    <td colspan="2">Unas 4 horas</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+                </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <h2>Felipe Queveo Mendoza</h2>
+                <h2>©</h2>
+                <img src="./img/índice.png" alt="">
+            </div>
+        </div>
+
+    </body>
+
+</html>
