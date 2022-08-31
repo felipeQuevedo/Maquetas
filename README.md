@@ -6,14 +6,14 @@
    <img src="https://img.shields.io/badge/CONTENIDO-BOOSTRAP-BLUE">
    </p>
    :construction: Proyecto en construcción 🚧
->ENTIDAD: Centro de Biotecnologia Agropecuaria FICHA: 2558346 PROGRAMA: Analisis y desarrollo de Software - ADSO Autor: Felipe Quevedo OBJETIVO: Uso del css y boostrap:
+>ENTIDAD: Centro de Biotecnologia Agropecuaria FICHA: 2558346 PROGRAMA: Analisis y desarrollo de Software - ADSO Autor: Felipe Quevedo OBJETIVO: Uso del css y boostrap:>
 -Encabezado
 -Menu
 -Cuerpo
 -Pie
 -Aside
 -++ Lateral
->HTML-css-boostrap:
+>HTML-css-boostrap:>
 -media
 -Font
 -height
