@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
 }
-#caja{
-    padding: 0%;
-    border:2px solid #f0e7de;
-    background:rgb(252, 252, 241);
-    margin:0%;
-    line-height:26px !important;
-    height: 350px;
+#div5{
+    background-image: url(../img/portada3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:solid white 5px
     }
      #div2{
         background-image: url(../img/img4\ .1.jpg   );
@@ -25,7 +24,7 @@
 
     }
     #div1{
-        background-image: url(../img1/portada.jpg);
+        background-image: url(../img/portada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -41,7 +40,7 @@
         top: 200px;
     }
     #div3{
-        background-image: url(../img1/img2.jpg);
+        background-image: url(../img/portada1);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -54,7 +53,7 @@
         margin: 5rem 0;
     }
     #div4{
-        background-image: url(../img1/img1.jpg);
+        background-image: url(../img/portada2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -75,4 +74,13 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+}
+
+
+.imagen2{
+   height: 400px;
+}
+.imagen3{
+    height: 550px;
+    text-align: center;
 }
